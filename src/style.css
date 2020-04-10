@@ -1,0 +1,46 @@
+@import '~antd/dist/antd.css';
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 200px;
+}
+
+.handle {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.3s;
+  cursor: grab;
+  border: solid 1px rgb(230, 230, 230);
+}
+.handle-press {
+  box-shadow: 3px 0px 8px rgb(51, 91, 179);
+  border: solid 4px rgb(230, 230, 230);
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+  font-weight: normal;
+  font-size: 1em;
+  color: black;
+}
+.text-up {
+  top: -22px;
+  font-size: 1.4em;
+}
+.line {
+  position: absolute;
+  top: 0;
+  background: rgb(78, 134, 255);
+  z-index: -2;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.line-on-drag {
+  box-shadow: inset 5px -5px 10px rgb(51, 91, 179);
+}
