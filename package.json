@@ -23,10 +23,10 @@
     ]
   },
   "devDependencies": {
-    "accurapp-scripts": "^5.0.0",
+    "accurapp-scripts": "^5.2.1",
     "babel-preset-accurapp": "^5.0.0",
     "eslint-config-accurapp": "^5.0.0",
-    "jest-config-accurapp": "^4.1.1",
+    "jest-config-accurapp": "^4.1.2",
     "webpack-preset-accurapp": "^5.0.0"
   },
   "dependencies": {
